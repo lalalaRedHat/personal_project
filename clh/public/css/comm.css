@@ -1,0 +1,25 @@
+/* 公共样式 */
+body{
+    background: #fff;
+    font: 14px/1.5 'Futura LT Light','MicrosoftJhengHei','Microsoft YaHei', 'Microsoft YaHei UI', 'WenQuanYi Micro Hei', Arial, sans-serif,\5b8b\4f53;
+    color: #666;
+}
+a{
+    color: #333;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+
+#header>iframe,
+#footer>iframe {
+    width: 100%;
+    border: 0;
+    height: 100px;
+}
+#footer>iframe{
+    height: 330px;
+}
+
+
+/* 菜单按钮 */

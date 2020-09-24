@@ -1,0 +1,74 @@
+/* footer开始 */
+.footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+}
+.footer p{
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.footer>div:first-child{
+    flex: 0 0 48%;
+    height: 224px;
+    padding-left: 10px;
+    border-bottom: 2px solid #ddd;
+}
+.footer>div:first-child>h3{
+    font-weight: lighter;
+    color: #666;
+    margin: 20px 0 40px 0;
+}
+.footer>div:first-child>h1{
+    font-weight: 500;
+    color: #6e6e6e;
+    margin-bottom: 10px;
+}
+.footer>div:first-child>h1 + p{
+    color: #99CC66;
+}
+
+.footer>div:nth-child(2){
+    flex: 0 0 48%;
+    height: 224px;
+    padding-right: 10px;
+    border-bottom: 2px solid #ddd;
+    position: relative;
+}
+.footer>div:nth-child(2)>img{
+    width: 120px;
+    position: absolute;
+    top: 20px;
+    right: 0;    
+}
+.footer>div:nth-child(2)>p{
+    position: absolute;
+    right: 0;    
+    bottom: 10px;
+}
+
+.footer>div:nth-child(3){
+    flex: 0 0 100%;
+    padding: 0 10px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.footer>div:nth-child(3) a{
+    color: #999;
+    text-decoration: none;
+}
+.footer>div:nth-child(3) a{
+    margin-right: 32px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.footer>div:nth-child(3) a:hover{
+    color: #333;
+}
+/* footer结束 */
