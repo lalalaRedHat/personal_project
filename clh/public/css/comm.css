@@ -10,7 +10,7 @@ a{
     text-decoration: none;
 }
 
-
+/* 头、尾部共用 */
 #header>iframe,
 #footer>iframe {
     width: 100%;
@@ -23,3 +23,49 @@ a{
 
 
 /* 菜单按钮 */
+
+
+/* 服务客户标题 */
+.customer_title{
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.title{
+    font-size: 36px;
+    font-weight: lighter;
+}
+.subtitle{
+    font-size: 16px;
+}
+.tips{
+    margin-top: 20px;
+    color: #bbb;
+}
+#customer ul{
+    width: 1200px;
+    margin: 0 auto;
+    border-top: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+}
+#customer ul>li>a{
+    display: block;
+    width: 238px;
+    height: 178px;
+    background:#eee url(../img/clients.jpg) no-repeat;
+    transition: 0.3s;
+}
+#customer ul>li>a:hover{
+    transform: scale(0.8);
+}
+#customer ul>li{
+    float: left;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+#customer ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}

@@ -22,6 +22,8 @@
     background: url('../img/tel_bg.jpg') no-repeat 0px center;
     margin-right: 22px;
     padding-left: 40px;
+    height: 28px;
+    line-height: 28px;
 }
 .header>nav a{
     height: 101px;
