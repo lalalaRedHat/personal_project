@@ -1,7 +1,4 @@
-/* 主页样式 */
-#header{height: 100px;}
-
-
+/***********  主页样式  ************/
 /* banner开始 */
 .banner{
     width: 100%;
@@ -9,6 +6,7 @@
     margin: 0px auto 0;
     position: relative;
     font-size: 16px;
+    padding-top: 100px;
 }
 .banner>img{
     width: 100%;
@@ -320,5 +318,112 @@
 /* 服务客户 */
 #customer{
     border-top: 1px dotted #c8c8c8;
+    margin-top: 100px;
+    position: relative;
 }
 /* 服务客户结束 */
+
+
+
+/* 核心能力 */
+#core{
+    border-top: 1px dotted #c8c8c8;
+    margin-top: 100px;
+    text-align: center;
+    position: relative;
+}
+#core>.core_title{
+    width: 460px;
+    background: #fff;
+    color: #525252;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -230px;
+}
+#core>div>p{
+    font-size: 14px;
+    color: #999;
+}
+#core>div>h2{
+    font-size: 24px;
+    font-weight: normal;
+}
+#core>div>h2>em{
+    color: #999;
+}
+#core>.core_title>h2+p,
+#core>.core_title>p:last-child{
+    font-size: 16px;
+    color: #666;
+}
+#core>.core_title>p:last-child{
+    margin-top: 10px;
+    font-weight: bold;
+}
+#core>.core_title>p:last-child>a{
+    color: #525252;
+}
+
+#core>.core_below{
+    margin-top: 90px;
+}
+#core>.core_below p{
+    margin-top: 16px;
+}
+#core>.core_below a{
+    color: #525252;
+}
+#core>.core_title>p:last-child>a:hover,
+#core>.core_below a:hover{
+    color: #000;
+}
+#core>ul{
+    width: 1200px;
+    color: #999;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 80px auto;
+}
+#core>ul>li{
+    width: 200px;
+    align-items: center;
+}
+#core>ul h3{
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px auto 30px;
+}
+#core>ul p+p{
+    margin-top: 5px;
+}
+/* 核心能力结束 */
+
+
+/* 回到顶部开始 */
+#back_top>ul{
+    position: fixed;
+    right: 0px;
+    bottom: 50px;
+}
+#back_top a{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+#back_top li:first-child a{
+    background: #ffc602 url(../img/qq.png) no-repeat center;
+}
+#back_top li:first-child a:hover{
+    background-color: #ffae00;
+}
+#back_top li:last-child a{
+    background: #313131 url(../img/totop.png) no-repeat center;
+}
+#back_top li:last-child a:hover{
+    background-color: #000;
+}
+/* 回到顶部结束 */

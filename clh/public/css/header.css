@@ -1,4 +1,9 @@
 /* header */
+body{
+    font: 14px/1.5 "Futura LT Light",'MicrosoftJhengHei','Microsoft YaHei', "Microsoft YaHei UI", "WenQuanYi Micro Hei", Arial, sans-serif;
+    font: 14px/1.5;
+    color: #666;
+}
 .header{
     height: 99px;min-width: 1200px;
     border-bottom: 1px solid #f2f2f2;
@@ -18,12 +23,14 @@
     height: 35px;
 }
 .header>h3{
+    height: 28px;
     color: #8fc35d;
     background: url('../img/tel_bg.jpg') no-repeat 0px center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
     margin-right: 22px;
     padding-left: 40px;
-    height: 28px;
-    line-height: 28px;
 }
 .header>nav a{
     height: 101px;
@@ -31,6 +38,9 @@
     line-height: 101px;
     text-decoration: none;
     color: #333;
+    font-size: 16px;
+    font-weight: lighter;
+    transition-property: color;
 }
 .header>nav a + a{
     margin-left: 50px;
